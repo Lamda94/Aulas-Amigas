@@ -5,6 +5,7 @@ const cors = require('cors')
 require("dotenv").config()
 
 const {swaggerDoc} = require('./api-docs');
+
 //importacion de las rutas
 const Estudiantes = require('./routes/estudiantes.routes')
 const Cursos = require('./routes/cursos.routes')
